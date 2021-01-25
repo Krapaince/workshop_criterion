@@ -2,6 +2,7 @@
 
 #include <my.h>
 
+// Does this function really works?
 char* my_strdup(char const* src)
 {
     size_t len = my_strlen(src);
