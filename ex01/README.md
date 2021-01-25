@@ -7,6 +7,8 @@ Write two tests:
 - One which copies a non empty string into `dest`
 - A second one which copies an empty string into `dest`
 
+Can you really compare string with `cr_assert()` ?
+
 For each of this test check the returned value with the correct
 [assertion](https://criterion.readthedocs.io/en/master/assert.html#common-assertions).
 
