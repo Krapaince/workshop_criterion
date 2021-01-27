@@ -17,7 +17,7 @@ SRC_TEST 		=	get_stdin_content.c			\
 OBJ_SRC 		= $(addprefix $(SRC_DIR), $(SRC:.c=.o))
 OBJ_SRC_TEST 	= $(SRC_TEST:.c=.o)
 
-DIR_GCOVR		= coverage_report
+DIR_GCOVR		= ../coverage_report
 
 BINARY_TEST		= unit_tests
 
@@ -36,5 +36,5 @@ fclean:
 
 gcovr: clean $(BINARY_TEST)
 	# IGNORE the comment line for the first step.
-	#@mkdir -p ../${DIR_GCOVR} && cd ../${DIR_GCOVR}; \
+	#@mkdir -p ${DIR_GCOVR} && cd ${DIR_GCOVR}; \
 		# write your gcovr command here
