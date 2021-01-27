@@ -8,7 +8,7 @@ LDFLAGS			= -lcriterion
 
 SRC_DIR			= ../src/
 
-SRC_TEST 		= strdup.c
+SRC_TEST 		= get_stdin_content.c
 
 OBJ_SRC 		= $(addprefix $(SRC_DIR), $(SRC:.c=.o))
 OBJ_SRC_TEST 	= $(SRC_TEST:.c=.o)
