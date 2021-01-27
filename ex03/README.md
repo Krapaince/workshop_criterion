@@ -9,7 +9,7 @@ and the `FILE` type of the C library?
 
 Here it comes.
 
-For this fourth test, write one tests in
+For this fourth test, write one test in
 `tests/get_stdin_content.c` for the `get_stdin_content` function
 (`src/get_stdin_content.c`).
 
